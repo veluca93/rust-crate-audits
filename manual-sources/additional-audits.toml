@@ -149,3 +149,27 @@ who = "Luca Versari <veluca@chromium.org>"
 criteria = ["safe-to-deploy"]
 version = "0.6.0"
 notes = "No unsafe code, no fs access"
+
+[[audits.jxl]]
+who = "Ben Saunders <bsaunders@google.com>"
+criteria = ["safe-to-deploy"]
+version = "0.7.1"
+notes = "Delta review from v0.6.0"
+
+[[audits.jxl_simd]]
+who = "Ben Saunders <bsaunders@google.com>"
+criteria = ["safe-to-deploy"]
+version = "0.7.1"
+notes = "Delta review from v0.6.0"
+
+[[audits.jxl_macros]]
+who = "Luca Versari <veluca@chromium.org>"
+criteria = ["safe-to-deploy"]
+version = "0.7.1"
+notes = "No unsafe code, no fs access"
+
+[[audits.jxl_transforms]]
+who = "Luca Versari <veluca@chromium.org>"
+criteria = ["safe-to-deploy"]
+version = "0.7.1"
+notes = "No unsafe code, no fs access"
